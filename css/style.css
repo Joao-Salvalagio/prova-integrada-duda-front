@@ -7,29 +7,27 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     text-align: center;
     border: 2px solid #ff66b2;
     border-radius: 10px;
-    padding: 30px; /* Aumentado para mais espaçamento interno */
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     color: #ff66b2;
-    font-size: 2em;
 }
 
 .provas button {
     background-color: #ff66b2;
     color: white;
     border: none;
-    border-radius: 10px;
-    padding: 15px 20px;
-    margin: 10px;
-    font-size: 1.1em;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -39,24 +37,17 @@ h1 {
 }
 
 .prova-container {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .question {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: #fff0f5;
-    border-radius: 8px;
-    border: 1px solid #ffb3d9;
-    text-align: left;
+    margin: 15px 0;
 }
 
 .answer {
     display: none;
-    margin-top: 10px;
+    margin-top: 5px;
     color: green;
-    font-weight: bold;
-    transition: opacity 0.3s; /* Adicionada transição suave */
 }
 
 .options {
@@ -72,7 +63,6 @@ h1 {
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 100%;
 }
 
 .options button:hover {
@@ -86,13 +76,6 @@ h1 {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     cursor: pointer;
 }
-
-.section-header {
-    font-size: 1.5em;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: #ff3399;
-    text
