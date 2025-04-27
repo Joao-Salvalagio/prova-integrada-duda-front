@@ -1,4 +1,4 @@
-const provas = {
+const prova = {
     1: [
         {
             question: "Qual das alternativas descreve corretamente uma diferença entre DNA e RNA?",
@@ -956,7 +956,7 @@ const provas = {
     answer: 1
 },
     ]
-}
+};
 
 let currentQuestionIndex = 0;
 let currentProva = [];
@@ -969,7 +969,7 @@ function shuffleArray(array) {
 }
 
 function showProva(provaNumber) {
-    currentProva = provas[provaNumber];
+    currentProva = prova[provaNumber];
     currentQuestionIndex = 0;
     displayQuestion();
 }
