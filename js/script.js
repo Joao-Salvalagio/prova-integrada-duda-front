@@ -202,8 +202,418 @@ const provas = {
             ],
             answer: 1 // Resposta correta
         }
-    ]
-};
+    ],
+        3: [ // Química
+            {
+                question: "O que é química?",
+                options: [
+                    "Estudo dos seres vivos",
+                    "Estudo da composição, estrutura, propriedades e transformações da matéria"
+                ],
+                answer: 1
+            },
+            {
+                question: "Uma substância pura tem:",
+                options: [
+                    "Composição constante",
+                    "Composição variável"
+                ],
+                answer: 0
+            },
+            {
+                question: "Mistura homogênea é aquela que:",
+                options: [
+                    "Possui composição uniforme",
+                    "Possui composição variável visível"
+                ],
+                answer: 0
+            },
+            {
+                question: "Propriedades intensivas são aquelas que:",
+                options: [
+                    "Dependem da quantidade de matéria",
+                    "Não dependem da quantidade de matéria"
+                ],
+                answer: 1
+            },
+            {
+                question: "Na classificação da matéria, a água (H₂O) é considerada:",
+                options: [
+                    "Substância simples",
+                    "Substância composta"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que é um solvente em uma solução?",
+                options: [
+                    "Substância em menor quantidade",
+                    "Substância em maior quantidade"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que representa o número atômico (Z)?",
+                options: [
+                    "Número de nêutrons",
+                    "Número de prótons"
+                ],
+                answer: 1
+            },
+            {
+                question: "Quem propôs o modelo atômico com níveis de energia quantizados?",
+                options: [
+                    "Thomson",
+                    "Bohr"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que são isótopos?",
+                options: [
+                    "Átomos de diferentes elementos com o mesmo número de massa",
+                    "Átomos do mesmo elemento com diferentes números de nêutrons"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que é o espectro atômico?",
+                options: [
+                    "Representação das frequências de luz emitidas/absorvidas por átomos",
+                    "Representação das forças nucleares"
+                ],
+                answer: 0
+            }
+        ],
+        4: [ // Histologia
+            {
+                question: "Histologia estuda:",
+                options: [
+                    "Órgãos do corpo",
+                    "Tecidos do corpo humano"
+                ],
+                answer: 1
+            },
+            {
+                question: "Qual tecido é avascular?",
+                options: [
+                    "Conjuntivo",
+                    "Epitelial"
+                ],
+                answer: 1
+            },
+            {
+                question: "O tecido muscular estriado cardíaco é:",
+                options: [
+                    "Voluntário",
+                    "Involuntário"
+                ],
+                answer: 1
+            },
+            {
+                question: "Neurônios e células da glia pertencem ao:",
+                options: [
+                    "Tecido conjuntivo",
+                    "Tecido nervoso"
+                ],
+                answer: 1
+            },
+            {
+                question: "Qual é a função principal dos microvilos?",
+                options: [
+                    "Movimento",
+                    "Aumento da absorção"
+                ],
+                answer: 1
+            },
+            {
+                question: "A lâmina basal é composta por:",
+                options: [
+                    "Proteínas estruturais",
+                    "Lipídios"
+                ],
+                answer: 0
+            },
+            {
+                question: "As junções GAP permitem:",
+                options: [
+                    "Adesão celular",
+                    "Comunicação entre células"
+                ],
+                answer: 1
+            },
+            {
+                question: "Pênfigo vulgar afeta principalmente:",
+                options: [
+                    "Desmogleína 1",
+                    "Desmogleína 3"
+                ],
+                answer: 1
+            },
+            {
+                question: "Epitélio pseudoestratificado tem células que:",
+                options: [
+                    "Não tocam a membrana basal",
+                    "Tocam a membrana basal, mas nem todas chegam à superfície"
+                ],
+                answer: 1
+            },
+            {
+                question: "Glândulas unicelulares produzem principalmente:",
+                options: [
+                    "Mucinas",
+                    "Colágeno"
+                ],
+                answer: 0
+            }
+        ],
+        5: [ // Saúde Coletiva
+            {
+                question: "Saúde coletiva se preocupa com:",
+                options: [
+                    "Apenas indivíduos",
+                    "Grupos sociais e coletividade"
+                ],
+                answer: 1
+            },
+            {
+                question: "Saúde pública é dever de quem?",
+                options: [
+                    "Apenas da família",
+                    "Do Estado"
+                ],
+                answer: 1
+            },
+            {
+                question: "Quem iniciou a vacinação obrigatória no Brasil?",
+                options: [
+                    "Oswaldo Cruz",
+                    "Carlos Chagas"
+                ],
+                answer: 0
+            },
+            {
+                question: "O que foram os IAPs na Era Vargas?",
+                options: [
+                    "Institutos de previdência privada",
+                    "Institutos de aposentadoria e pensão"
+                ],
+                answer: 1
+            },
+            {
+                question: "Em que ano o Ministério da Saúde foi separado da Educação?",
+                options: [
+                    "1930",
+                    "1953"
+                ],
+                answer: 1
+            },
+            {
+                question: "Qual conferência impulsionou a criação do SUS?",
+                options: [
+                    "7ª Conferência Nacional de Saúde",
+                    "8ª Conferência Nacional de Saúde"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que significa Universalidade no SUS?",
+                options: [
+                    "Saúde apenas para quem paga",
+                    "Saúde como direito de todos"
+                ],
+                answer: 1
+            },
+            {
+                question: "Sistema anterior ao SUS:",
+                options: [
+                    "INAMPS",
+                    "SUDS"
+                ],
+                answer: 1
+            },
+            {
+                question: "Conselho de Saúde é composto por:",
+                options: [
+                    "Apenas profissionais de saúde",
+                    "Profissionais, usuários e governo"
+                ],
+                answer: 1
+            },
+            {
+                question: "Participação popular é princípio:",
+                options: [
+                    "Organizativo do SUS",
+                    "Ético do SUS"
+                ],
+                answer: 0
+            }
+        ],
+        6: [ // Biossegurança e Bioética
+            {
+                question: "O que é biossegurança?",
+                options: [
+                    "Proteção apenas do meio ambiente",
+                    "Conjunto de ações para proteger a vida humana e ambiental"
+                ],
+                answer: 1
+            },
+            {
+                question: "Exemplo de risco ergonômico:",
+                options: [
+                    "Ruído",
+                    "Esforço repetitivo"
+                ],
+                answer: 1
+            },
+            {
+                question: "Agente biológico classe 4 inclui:",
+                options: [
+                    "Esquistossomose",
+                    "Ebola"
+                ],
+                answer: 1
+            },
+            {
+                question: "Equipamentos de proteção coletiva (EPCs) são usados para:",
+                options: [
+                    "Proteger apenas um trabalhador",
+                    "Proteger o ambiente inteiro"
+                ],
+                answer: 1
+            },
+            {
+                question: "A norma NR-32 trata de:",
+                options: [
+                    "Segurança em laboratórios de alimentos",
+                    "Segurança no trabalho em serviços de saúde"
+                ],
+                answer: 1
+            },
+            {
+                question: "Mapa de risco usa:",
+                options: [
+                    "Gráficos de barras",
+                    "Círculos de diferentes cores e tamanhos"
+                ],
+                answer: 1
+            },
+            {
+                question: "É proibido no laboratório:",
+                options: [
+                    "Usar jaleco fechado",
+                    "Pipetar com a boca"
+                ],
+                answer: 1
+            },
+            {
+                question: "Boas práticas laboratoriais incluem:",
+                options: [
+                    "Comer no laboratório",
+                    "Uso correto dos EPIs"
+                ],
+                answer: 1
+            },
+            {
+                question: "A lei brasileira de biossegurança mais recente é a:",
+                options: [
+                    "8.974/1995",
+                    "11.105/2005"
+                ],
+                answer: 1
+            },
+            {
+                question: "Ignac Semmelweis ficou famoso por:",
+                options: [
+                    "Criar a vacina",
+                    "Introduzir a lavagem das mãos"
+                ],
+                answer: 1
+            }
+        ],
+        7: [ // Epidemiologia
+            {
+                question: "Epidemiologia estuda:",
+                options: [
+                    "Apenas doenças",
+                    "Eventos que afetam populações"
+                ],
+                answer: 1
+            },
+            {
+                question: "John Snow foi importante para:",
+                options: [
+                    "Criar vacinas",
+                    "Descobrir a transmissão da cólera"
+                ],
+                answer: 1
+            },
+            {
+                question: "O agente da dengue é:",
+                options: [
+                    "Mosquito",
+                    "Vírus"
+                ],
+                answer: 1
+            },
+            {
+                question: "Determinantes sociais da saúde incluem:",
+                options: [
+                    "Apenas genética",
+                    "Condições sociais, ambientais e econômicas"
+                ],
+                answer: 1
+            },
+            {
+                question: "Surto se caracteriza por:",
+                options: [
+                    "Casos limitados em espaço e tempo",
+                    "Casos em vários continentes"
+                ],
+                answer: 0
+            },
+            {
+                question: "Doença crônica tem:",
+                options: [
+                    "Evolução rápida",
+                    "Evolução lenta"
+                ],
+                answer: 1
+            },
+            {
+                question: "Fase pré-patogênica é:",
+                options: [
+                    "Antes da doença se instalar",
+                    "Quando já há sintomas"
+                ],
+                answer: 0
+            },
+            {
+                question: "Prevenção secundária visa:",
+                options: [
+                    "Impedir o surgimento da doença",
+                    "Diagnosticar e tratar precocemente"
+                ],
+                answer: 1
+            },
+            {
+                question: "O que é endemia?",
+                options: [
+                    "Doença fora do normal em área restrita",
+                    "Doença presente de forma constante em determinada região"
+                ],
+                answer: 1
+            },
+            {
+                question: "Quais são exemplos de zoonoses?",
+                options: [
+                    "HIV",
+                    "Raiva e gripe"
+                ],
+                answer: 1
+            }
+        ]
+    };
 
 let currentQuestionIndex = 0;
 let currentProva = [];
